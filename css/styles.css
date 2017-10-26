@@ -1,0 +1,9 @@
+.container{
+	width: 270px;
+	height: 110px;
+	border:  1px solid #000;
+	background-color: #2f2f2f;
+	overflow: hidden;
+	color: #fefdfb;
+	border-radius: 3px;
+}
