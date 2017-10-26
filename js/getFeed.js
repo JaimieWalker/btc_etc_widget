@@ -50,9 +50,9 @@ var obj, high, low, open, price, change, percent,time;
 			}
 
 			$("#productId").text(obj.product_id)
-			$("#price").text(price);
-			$("#high").text("H:" + high);
-			$("#low").text("L:" + open);
+			$("#price").text("$" + price);
+			$("#high").text("H:$" + high);
+			$("#low").text("L:$" + open);
 			$("#percent").text(percent + "%");
 			$("#timeDate").text(time)
 			console.log(event.data);
